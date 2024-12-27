@@ -1,0 +1,6 @@
+A e D movimentação
+Espaço pular
+Botão esquerdo do mouse atira
+
+No início, basta clicar em qualquer tecla para começar o jogo.
+Caso morra, basta clicar me qualquer tecla.

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-image: url('../IMAGES/background.jpg.webp');
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0;
+    height: 100vh; 
+}
+
+.menu h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    min-height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu img {
+    height: 90px;
+    width: 90px;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu a {
+    color: brown;
+    text-decoration: none;
+    transition: 3s;
+}
+
+.menu a:hover {
+    color: grey;
+}
+.rodape{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape h2{
+    font-size: 15px;
+}
+/* HOME */
+.home {
+    width: 100%;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 60px;
+    color: rgb(51, 2, 2);
+}
+
+.home img {
+    width: 220px;
+    height: 250px;
+}
+
+.home p {
+    background-color: rgba(255, 0, 13, 0.37);
+    color: rgb(7, 1, 1);
+    font-size: 22px;
+    text-align: center;
+}
+
+.artes {
+    background-color: #f1f1f1a8;
+    padding: 10px; 
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.artes{
+    font-size: 25px;
+    color: red;
+}
+
+.GrupoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.imagens {
+    width: 300px;
+    height: 250px;
+    min-width: 100px;
+    min-height: 100px;   
+    border: 5px solid red;
+}
+
+
+/* Comunicado */
+.informativo {
+    background-color: #aa0909b7;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.informativo ul {
+    list-style: none;
+}
+
+.oin
+
+.Seguir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(51, 2, 2)
+}
+
+.Seguir h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rede-social {
+    display: flex;
+    flex-direction: d;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-social img {
+    width: 50px;
+    height: 50px;
+}
+/* Formulario */
+.container-formulario{
+
+    width: 35%;
+    min-height: 55vh;
+    background-color: rgba(138, 36, 36, 0.664);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;    
+}
+form input[type="text"],
+
+form input[type="email"],
+
+form input[type="number"],
+
+form textarea{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    padding-left:10px ;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+form textarea{
+    padding-left: 20px;
+    height: 100px;
+    resize: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input[type="submit"] {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
